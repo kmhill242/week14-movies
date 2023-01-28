@@ -8,7 +8,7 @@ export default class Navbar extends React.Component {
       
       <nav className="navbar navbar-expand-sm navbar-light bg-light">
         <div className="container">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="/#">
             Hills Top Picks
           </a>
           <button
@@ -28,19 +28,19 @@ export default class Navbar extends React.Component {
           >
             <ul className="navbar-nav">
               <li className="nav-item active">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/#">
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/#">
                   Movie List
                 </a>
               </li>
             </ul>
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/#">
                   Where to Watch
                 </a>
               </li>
